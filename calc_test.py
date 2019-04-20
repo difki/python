@@ -17,4 +17,4 @@ class TestCalculator:
         assert 6 == calc.mul(3, 2)
 
     def test_dev(self):
-        assert 15 == calc.dev(150/10)
+        assert 15 == calc.dev(150, 10)
