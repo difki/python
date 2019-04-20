@@ -24,3 +24,8 @@ jobs:
             . venv/bin/activate
             flake8 --exclude=venv* --statistics
             pytest -v --cov=calc
+      # Step 4: Run hello world
+      - run:
+          name: run hello world
+          command: |
+            echo "Hello World"
