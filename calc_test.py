@@ -18,5 +18,3 @@ class TestCalculator:
 
     def test_dev(self):
         assert 15 == calc.dev(150, 10)
-    def test_subtraction(self):
-        assert 140 == calc.dev(150, 10)
